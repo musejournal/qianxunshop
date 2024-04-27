@@ -1,0 +1,46 @@
+/* 头部导航 */
+.nav{
+    height: 40px;
+}
+.nav-center{
+    height: 40px;
+}
+.nav-center-left{
+    width: 400px;
+    height: 40px;
+    float: left;
+    line-height: 40px;
+    font-size: 12px;
+    
+}
+.nav-center-left a:nth-child(2){
+    color: #000;
+}
+.nav-center-left a:nth-child(3){
+    border: 1px solid #999;
+    text-align: center;
+}
+.nav-center-left a:nth-child(5){
+    color: #FE8c00;
+    padding: 10px;
+}
+.nav-center-left a:hover{
+    color: #FE8c00;
+}
+.nav-center-right{
+    width: 356px;
+    height: 40px;
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    color: #999;
+}
+.nav-center-right a{
+    padding: 0 15px 0 0;
+}
+.nav-center-right a:nth-child(5){
+    padding: 0;
+}
+.nav-center-right a:hover{
+    color: #FE8c00;
+}

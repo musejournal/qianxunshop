@@ -1,0 +1,318 @@
+/* 头部导航 header.css*/
+
+
+/* 搜索区域 */
+.header{
+    height: 122px;
+    background-color: white;
+}
+.header-center{
+    height: 122px;
+}
+.header-center-left{
+    width: 300px;
+    height: 122px;
+    font-size: 0;
+    float: left;
+}
+.header-center-left h1 a img{
+    width: 126px;
+    height: 46px;
+    margin-top: 61px;
+    transform: translateY(-50%);
+}
+.header-center-right{
+    width: calc(1190px - 300px);
+    height: 122px;
+    float: left;
+}
+.header-center-right input{
+    width: 50%;
+    height: 42px;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+    margin-top: 61px;
+    transform: translateY(-50%);
+    padding: 10px;
+}
+.header-center-right button{
+    outline: none;
+    border: none;
+    height: 42px;
+    width:8%;
+    line-height: 100%;
+    background-color: #FFC300;
+    color: #222222;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-top: 61px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+
+/* 主题区域 */
+.bodyer{
+    margin-top: 50px;
+    height: 453px;
+}
+.bodyer-center{
+    height: 453px;
+    
+}
+.bodyer-center-left{
+    width: 230px;
+    height: 498px;
+    float: left;
+    margin-top: -50px;
+    position: relative;
+    background-color: #fff;
+}
+.bodyer-center-left .classic{
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #f8f8f8;
+}
+.bodyer-center-left ul{
+    background-color: #fff;
+}
+.bodyer-center-left ul li{
+    width: 218px;
+    height: 29px;
+    padding: 2px 0 2px 12px;
+    line-height: 28px;
+}
+.bodyer-center-left ul li span{
+     font-size: 13px;
+    color:#646464;
+    cursor: pointer; 
+}
+.bodyer-center-left ul li b{
+    position: absolute;
+    right: 13px;
+}
+.bodyer-center-center{
+    width: 694px;
+    height: 498px;
+    float: left;
+    margin: -50px 5px 0 5px;
+}
+.bodyer-center-center-top{
+    width: 694px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+}
+.bodyer-center-center-top a{
+    color: #000;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0 22px;
+}
+.bodyer-center-center-top a:hover{
+    color: #FFC300;
+}
+.bodyer-center-center-bottom{
+    width: 694px;
+    height: 350px;
+    background-color: #fff;
+    margin-top: 3px;
+}
+.focus {
+    width: 694px;
+    height: 350px;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden
+}
+.focus img{
+    width: 694px;
+    height: 380px;
+
+}
+
+.focus .arrow-l{
+    /* display: none; */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,.3);
+}
+.focus {
+    position: relative;
+}
+ol  {
+    position: absolute;
+    top: 320px;
+    left: 40px;
+}
+ol li {
+    float: left;
+}
+.current {
+    color: #fff;
+}
+.focus .arrow-r{
+    /* display: none; */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,.3);
+}
+.bodyer-center-right{
+    width: 255px;
+    height: 448px;
+    float: right;
+}
+.bodyer-center-right-top{
+    width: 238px;
+    height: 228px;
+    border: 1px solid #f6f6f6;
+    margin:  auto;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+.bodyer-center-right-top div:nth-child(1){
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    margin-top: 40px;
+    background: url(../image/person.png) no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+}
+.bodyer-center-right-top p{
+   margin: 10px 0 ;
+   font-size: 16px;
+}
+.bodyer-center-right-top button{
+    color:#999;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  
+}
+.bodyer-center-right-top button:hover{
+    color: #FFC300;
+}
+.bodyer-center-right-buttom{
+    width: 238px;
+    height: 228px;
+    border: 1px solid #f6f6f6;
+    margin:  auto;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #fff; 
+}
+.bodyer-center-right-buttom span{
+    color:red;
+    font-size: 12px;
+}
+.bodyer-center-right-buttom p{
+    color: #000;
+    font-size: 12px;
+}
+
+
+
+
+/* 副导航 */
+.navbar{
+    height: 344px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.navbar h4{
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(34,34,34);
+    padding-left: 20px;
+    line-height: 44px;
+}
+.city,
+.classic,
+.arounds{
+    width: 100%;
+    height: 100px;
+}
+.navbar .title{
+    width: 100px;
+    float: left;
+    font-style: 14px;
+    font-weight: 500;
+    color: rgb(34,34,34);
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 100px;
+}
+ .navbar .item{
+    float: left;
+    padding: 15px 10px;
+    height: 100px;
+    width: 1090px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.item dt{
+    float: left;
+    font-size: 12px;
+    color: rgb(102,102,102);
+    padding: 0 10px 10px;
+    width: 120px;
+}
+
+.item dt:hover{
+    color: #FFC300;
+}
+    
+/* 底部链接 */
+.footer{
+    height: 586px;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}
+.footer .column{
+    height: 586px;
+    width: 220px;
+    float: left;
+    
+}
+.footer  .center{
+    padding: 0 45px;
+}
+.footer .column dd{
+    margin-top: 30px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer .column dl dt{
+    color: #666;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
